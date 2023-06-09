@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+   <Doc> Extended versions of the Packard model(50x50) for dendritic growth analysis in supercooled liquids.</Doc>
+      <Files>
+	 <File ftype="ma">supercooling2dext.ma</File>
+	 <File ftype="val">supercooling2dext.val</File>
+     <File ftype="inc">Supercooling2DExtMacros.inc</File>
+      </Files>
+   <Options>
+      <TimeOp>00:00:10:000</TimeOp>
+      <OnlyYMsgOP>true</OnlyYMsgOP>
+      <ParsingOp>false</ParsingOp>      
+   </Options>     
+   <DrawLog>
+      <CoupledModel>supercooling2D</CoupledModel>
+      <Width>3</Width>
+      <Precision>0</Precision>    
+      <NotPrintZero>true</NotPrintZero>   
+      <TimeInterval>00:00:00:100</TimeInterval> 
+	  <NeighborPort>phase</NeighborPort> 	
+   </DrawLog>  
+</ConfigFramework>

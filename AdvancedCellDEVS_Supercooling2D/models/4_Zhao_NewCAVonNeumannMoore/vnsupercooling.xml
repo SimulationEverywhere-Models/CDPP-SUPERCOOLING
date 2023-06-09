@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+   <Doc> This model simulates a new CA Von Neumann based dendritic growth. It uses Lopez linux version with normal configurations. Drawlog file shows 2D visualization of simulation result logs. For Detailed XML configuration please see User Manual. </Doc>
+      <Files>
+	 <File ftype="ma">2dsupercooling.ma</File>
+	 <File ftype="val">2dsupercooling.val</File>
+	 <File ftype="inc">2dsupercoolingMacros.inc</File>
+      </Files>
+   <Options>
+      <TimeOp>00:00:05:000</TimeOp>
+      <OnlyYMsgOP>true</OnlyYMsgOP>
+      <ParsingOp>false</ParsingOp>      
+   </Options>     
+   <DrawLog>
+      <CoupledModel>2dsupercooling</CoupledModel>
+      <Width>3</Width>
+      <Precision>0</Precision>    
+      <NotPrintZero>true</NotPrintZero>   
+      <TimeInterval>00:00:00:001</TimeInterval>
+      <NeighborPort>phase</NeighborPort> 	  
+   </DrawLog>  
+</ConfigFramework>

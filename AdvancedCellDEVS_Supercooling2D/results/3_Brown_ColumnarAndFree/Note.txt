@@ -1,0 +1,2 @@
+* Use BrownThemalAndState.PAL to visualized the files in Columnar and Free
+* Use BrownMultipleSeed.PAL to visualized the files in MultipleID_Columnar and MultipleID_Free

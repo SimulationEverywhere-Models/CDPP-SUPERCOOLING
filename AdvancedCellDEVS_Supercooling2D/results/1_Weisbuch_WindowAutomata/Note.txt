@@ -1,0 +1,5 @@
+* When 1DSEED is present in the file naming it means that only one cell was used for the experiment.
+  For instance,results_WindowAutomata_1DSeed uses one initial solid cell at the center, i.e. (49,49)=1
+
+* Use directly the provided DRW and the PAL using the Drawlog tool to visualize the results.
+* Other logs are in the zip files.

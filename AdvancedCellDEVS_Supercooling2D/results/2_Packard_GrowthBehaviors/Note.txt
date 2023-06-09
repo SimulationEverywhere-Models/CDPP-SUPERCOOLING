@@ -1,0 +1,3 @@
+- Only the temperature results obtained for some tests are reported here. Use PackardThermalCelsiusDegrees.PAL to visualize RISE results since temperature are in Celsius.
+- Other DRW are from the original tool and should be visualized using PackardThermalKelvinDegrees.PAL
+- We have only provided DRW for the compatible version since LOGS generally have larger size. They are however available on request.
